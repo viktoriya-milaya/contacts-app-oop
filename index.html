@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <main class="wrap">
+        <h1 class="headding">Contacts</h1>
+        <form action="/" class="contact-form" method="POST" id="form">
+            <label> Name:
+                <input type="text" id="name" placeholder="Bob Marley">
+            </label>
+            <label> Phone:
+                <input type="tel" id="phone" placeholder="+4079422941">
+            </label>
+            <label> Email:
+                <input type="email" id="email" placeholder="bob@gmail.com">
+            </label>
+            <label> Address:
+                <input type="text" id="address" placeholder="USA, Colorado">
+            </label>
+            <button type="submit" class="button contact-form__button">Add contact</button>
+        </form>
+
+
+        <ul class="contacts-list">
+            <!-- <li class="contacts-list__item" id="">
+                <span class="contacts-list__span contacts-list__span_bold">name</span>
+                <span class="contacts-list__span">email</span>
+                <span class="contacts-list__span">address</span>
+                <span class="contacts-list__span">phone</span>
+                <span class="contacts-list__span" id="remove">&#10008;</span>
+
+            </li> -->
+        </ul>
+
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
